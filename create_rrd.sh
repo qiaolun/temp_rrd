@@ -8,3 +8,4 @@ rrdtool create office-temp.rrd --start N --step 300 \
   RRA:AVERAGE:0.5:12:168 \
   RRA:AVERAGE:0.5:12:720 \
   RRA:AVERAGE:0.5:288:365
+
