@@ -38,7 +38,7 @@ def check_temp() :
         dat = int(float(cont))
         print '%s, pm %s, %d' % (datetime.datetime.now(), md, dat)
 
-        if dat > 10 :
+        if dat > 2 :
             if md == '8' :
                 save_to_pm2_rrd(dat)  
             elif md == '9' :
